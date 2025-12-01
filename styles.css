@@ -99,6 +99,18 @@ blockquote+span {
     text-align: center;
 }
 
+#aifooter {
+    padding: 1rem;
+    background-color: lightseagreen;
+    min-height: auto;
+}
+
+#aifooter .container {
+    min-height: auto;
+    text-align: center;
+}
+
+
 #subfooter {
     background-color: steelblue;
     min-height: 10rem;
