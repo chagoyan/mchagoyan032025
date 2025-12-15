@@ -53,7 +53,28 @@ blockquote+span {
 
 #pageheader nav {
     text-align: center;
+
 }
+
+#pageheader nav ul {
+    background-color: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#pageheader nav ul li {
+    border: 2px solid silver;
+    padding: 1rem;
+    margin: 2px;
+    background-color: aliceblue;
+}
+
+#pageheader nav ul li:hover {
+    background-color: rgb(142, 182, 218);
+}
+
+
 
 #media {
     background-color: lightblue;
@@ -125,7 +146,15 @@ audio {
     margin: auto;
 }
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:850px) {
+    #pageheader nav ul {
+        margin-top: 2rem;
+    }
+
+    #pageheader nav ul li {
+        display: inline-block;
+    }
+
     #pagecontent {
         background-color: red;
     }
